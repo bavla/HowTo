@@ -52,7 +52,7 @@ Generate a sequence of 40 pictures in PNG with randomly lighted points
 > par(new = TRUE)
 > png(file="Xtree%02d.png", width=480, height=600)
 > for(s in 1:40){
-+   cat("picture ",s,"\n"); flush.console()
++   # cat("picture ",s,"\n"); flush.console()
 +   plot(T,type="n",xaxt="n",xlab="",yaxt="n",ylab="",bty="n",
 +     main="Happy New Year 2025")
 +   rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4],col="midnightblue") # Bg Color
