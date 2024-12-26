@@ -1,6 +1,5 @@
 # Inside triangle
 
-https://www.sunshine2k.de/coding/java/PointInTriangle/PointInTriangle.html
 
 ## 'perp dot' product 
 
@@ -10,6 +9,11 @@ https://www.sunshine2k.de/coding/java/PointInTriangle/PointInTriangle.html
 > a %pDp% b
 [1] 14
 ```
+## Barycentric Algorithm
+
+https://www.sunshine2k.de/coding/java/PointInTriangle/PointInTriangle.html
+
+![inside](https://github.com/user-attachments/assets/efaf6667-712e-4702-a346-20ef5ce54823)
 
 ```
 
