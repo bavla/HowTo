@@ -1,6 +1,6 @@
 # Xtree
 
-An exercise in animation in R.
+An exercise in animation in R. A difference between alternate and random switching of Xtree lighting.
 
 Install the program [ImageMagick](https://imagemagick.org/script/download.php). 
 
