@@ -15,7 +15,7 @@ Install the program [ImageMagick](https://imagemagick.org/script/download.php).
 ```
 Initialize the tree T, colors C, and points (pendants) P.
 ```
-> n <- 40; m <- 6; dmin <- 1; tmax <- 1000
+> n <- 45; m <- 6; dmin <- 1.1; tmax <- 4000
 > T <- cbind(c(0,5,10),c(0,15,0))
 > C <- data.frame(
 +   li = c("orchid","red","orange","purple","royalblue","cyan"),
@@ -26,9 +26,10 @@ Initialize the tree T, colors C, and points (pendants) P.
 > P <- data.frame(
 +   x = rep(0,n), 
 +   y = rep(0,n), 
-+   r = runif(n,min=3,max=6), 
++   r = runif(n,min=3,max=5), 
 +   on = sample(c(TRUE,FALSE),n,replace=TRUE),
-+   co = sample(1:m,n,replace=TRUE)
++   co = sample(1:m,n,replace=TRUE),
++   pc = sample(21:25,n,replace=TRUE)
 + )
 ```
 Generate n random points inside the tree at distance at least dmin.
@@ -46,6 +47,7 @@ Generate n random points inside the tree at distance at least dmin.
 +     }
 +   }
 + }
+> cat("tries = ",t,"\n"); flush.console()
 ```
 Generate a sequence of 40 pictures in PNG with randomly lighted points
 ```
@@ -69,6 +71,7 @@ Generate a sequence of 40 pictures in PNG with randomly lighted points
 Combine the PNG sequence into a single GIF
 ```
 > system("magick -delay 80 *.png XtreeR.gif")
+> system("magick -delay 150 *.png XtreeR150.gif")
 > system("magick -delay 300 *.png XtreeR300.gif")
 ```
 For switching a given lighting change
