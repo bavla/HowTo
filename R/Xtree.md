@@ -4,6 +4,7 @@ An exercise in animation in R.
 
 Install the program [ImageMagick](https://imagemagick.org/script/download.php). 
 
+Setup the working environment
 ```
 > wdir <- "C:/Users/vlado/work/R/anim"
 > setwd(wdir)
