@@ -39,7 +39,7 @@ Generate n random points inside the tree at distance at least dmin.
 ```
 > t <- 0
 > for(p in 1:n){
-+   repeat{ t <- t+1; if(t > tmax) break
++   while(t < tmax){ t <- t+1
 +     x <- runif(1,min=0,max=10); y <- runif(1,min=0,max=15)
 +     # cat("new",t,p,x,y,"\n"); flush.console()
 +     if(test(x,y)){ P$x[p] <- x; P$y[p] <- y 
@@ -49,8 +49,12 @@ Generate n random points inside the tree at distance at least dmin.
 +       if(OK) break
 +     }
 +   }
++   if(t >= tmax) break
++   pp <- p
 + }
-> cat("tries = ",t,"\n"); flush.console()
+> cat("tries = ",t,pp,"\n"); flush.console()
+tries =  1622 45 
+> n <- pp
 ```
 Generate a sequence of 40 pictures in PNG with randomly lighted points
 ```
