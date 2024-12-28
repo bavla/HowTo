@@ -99,3 +99,5 @@ For switching a given lighting change
 
 
 ![XtreeSc150](https://github.com/user-attachments/assets/f6ddfe9a-60bc-4d24-a8e2-ec10f54cba1b)  ![XtreeRc150](https://github.com/user-attachments/assets/0b34aad9-8d7d-41f5-bc58-a84ccd67043c)
+
+![XtreeB](https://github.com/user-attachments/assets/1a0247fe-b983-48a2-9303-17b0c6766c2c)
