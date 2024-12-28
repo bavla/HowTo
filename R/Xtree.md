@@ -82,7 +82,16 @@ For switching a given lighting change
 ...
 +   P$on <- !P$on; 
 +   # P$on = sample(c(TRUE,FALSE),n,replace=TRUE)
-
+```
+and for bliking
+For switching a given lighting change
+```
+> # for(s in 1:40){
+> P$on <- rep(TRUE,n)
+> for(s in 1:2){
+...
++   P$on <- !P$on; 
++   # P$on = sample(c(TRUE,FALSE),n,replace=TRUE)
 ```
 
 
