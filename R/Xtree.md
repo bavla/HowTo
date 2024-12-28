@@ -2,6 +2,8 @@
 
 An exercise in animation in R. A difference between alternate and random switching of Xtree lighting.
 
+The basic idea is simple: generate a sequence of Xtree pictures in PNG and join them into an animated GIF using the program ImageMagick.
+
 Install the program [ImageMagick](https://imagemagick.org/script/download.php). 
 
 Setup the working environment
