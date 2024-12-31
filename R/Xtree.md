@@ -1,5 +1,7 @@
 # Xtree
 
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fvladimir.batagelj%2Fposts%2Fpfbid02drHoCHdZHpkdkjXhCcK399m6pMqpZRyYU9nyCDLbTJskwqYmuMfsZUrhvoPPL73xl&show_text=true&width=500" width="500" height="695" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
 An exercise in animation in R. A difference between alternate and random switching of Xtree lighting.
 
 The basic idea is simple: generate a sequence of Xtree pictures in PNG and join them into an animated GIF using the program ImageMagick.
